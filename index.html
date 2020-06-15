@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+  <title>Schets de stad</title>
+  <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link id="customCSS" rel="stylesheet" href="styles/light.css">
+  <script>
+      var dojoConfig = {
+        packages: [{
+          name: "app",
+          location: location.pathname.replace(/\/[^/]+$/, "") + "/app"
+        }],
+        async: true
+      };
+  </script>
+  <script src="https://js.arcgis.com/4.10/"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <div id="intro" class="hide">
+    <p>Schets de stad</p>
+    <p>Kies een stad en bezienswaardigheid en bekijk het resultaat in een 3D geschetst beeld. Gebruik de rechtermuisknop om de gebouwen van alle kanten te kunnen bekijken :)  
+        </p>
+    <p>De geschetste stad in 3D is gemaakt door Raluca Nicola. Ga naar
+        <a href="https://www.esri.com/arcgis-blog/products/js-api-arcgis/mapping/sketch-your-city-with-arcgis-api-for-javascript/" target="_blank">haar blog</a> om te bekijken hoe je zelf een 3D model kan schetsen </p>
+    <p>Gemaakt door middel van <a href="https://developers.arcgis.com/javascript/" target="_blank">ArcGIS API voor JavaScript</a></p>
+  </div>
+  <div id="menu">
+    <div id="cities"></div>
+    <button id="mode">Krijt</button>
+     
+      
+  </div>
+  <div id="slides"></div>
+  <div id="loading" class="hide">Bezig met laden <img src="loading.gif" alt="loading icon"></div>
+  <div id="error" class="hide">Het spijt me, ik kan dit niet laten zien :(</div>
+  <div id="attribution"></div>
+  <script>
+  require([
+      "app/main",
+      "dojo/domReady!"
+      
+    ]);
+  </script>
+    
+
+
+</body>
+</html>

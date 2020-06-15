@@ -1,0 +1,45 @@
+
+{
+  "cities": [
+
+    {
+      "title": "Rotterdam",
+      "id": "ebd5e7359b654869a0bb39ca4ee3367f",
+      "attribution": "Open data building 3D model provided by <a href='https://www1.nyc.gov/site/doitt/initiatives/3d-building.page' target='_blank'>DoITT</a>"
+    },
+      
+          { "title": "Den Haag",
+      "id": "78685d0764014a249d532f737f2418e0",
+      "attribution": "Den Haag"
+          },
+      
+      {
+           "title": "Amsterdam",
+      "id": "168344cfbcad4691b56256bc6e241a1e",
+      "attribution": "Amsterdam"
+      },
+      
+      {
+           "title": "Eindhoven",
+      "id": "dbcfd03a47a244a1b6149669f43524a2",
+      "attribution": "Eindhoven" 
+      },
+      
+       {
+           "title": "Den Bosch",
+      "id": "31789959ae584e0a880f01afee257558",
+      "attribution": "Den Bosch" 
+      },
+      
+       {
+           "title": "Leeuwarden",
+      "id": "f63ebf9109454b4f9299821144b9488f",
+      "attribution": "Leeuwarden" 
+      }
+      
+  ]
+}
+      
+
+
+      
